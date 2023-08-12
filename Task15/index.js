@@ -10,8 +10,10 @@ else to invite.
 
 • Print a second set of invitation messages, one for each person who is still
 in your list. */
-var guests2 = ["Saad", "Haris", "Fatima", "Ali"];
+var guests2 = ["Saad", "Haris", "Fatima", "Huma"];
+var canceled = guests2.pop();
+guests2.push("Ali");
 for (var i = 0; i < guests2.length; i++) {
     console.log("Hello ".concat(guests2[i], ", We would be delighted if you could join us for dinner!"));
 }
-console.log("Hey guys Huma can't make it this time :)");
+console.log("Hey guys ".concat(canceled, " can't make it this time :)"));

@@ -12,9 +12,11 @@ else to invite.
 in your list. */
 
 
-var guests2 = ["Saad", "Haris", "Fatima", "Ali"];
+var guests2 = ["Saad", "Haris", "Fatima", "Huma"];
+let canceled = guests2.pop();
+guests2.push("Ali")
 for (var i = 0; i < guests2.length; i++) {
     console.log("Hello ".concat(guests2[i], ", We would be delighted if you could join us for dinner!"));
 }
 
-console.log("Hey guys Huma can't make it this time :)");
+console.log(`Hey guys ${canceled} can't make it this time :)`);
