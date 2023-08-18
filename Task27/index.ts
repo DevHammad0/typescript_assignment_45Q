@@ -6,7 +6,7 @@
 • If the alien is red, print a message that the player earned 15 points.
 */
 
-let alien_color3 = "red";
+let alien_color3: string = "red";
 if (alien_color3 == "green") {
     console.log("You just earned 5 points");
 }else if(alien_color3 == "yellow"){
