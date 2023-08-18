@@ -1,3 +1,4 @@
+"use strict";
 /*Changing Guest List: You just heard that one of your guests can’t make the dinner,
 so you need to send out a new set of invitations. You’ll have to think of someone
 else to invite.
@@ -11,9 +12,9 @@ else to invite.
 • Print a second set of invitation messages, one for each person who is still
 in your list. */
 var guests2 = ["Saad", "Haris", "Fatima", "Huma"];
-var canceled = guests2.pop();
+let canceled = guests2.pop();
 guests2.push("Ali");
 for (var i = 0; i < guests2.length; i++) {
     console.log("Hello ".concat(guests2[i], ", We would be delighted if you could join us for dinner!"));
 }
-console.log("Hey guys ".concat(canceled, " can't make it this time :)"));
+console.log(`Hey guys ${canceled} can't make it this time :)`);
