@@ -13,7 +13,7 @@ to the end of your list.
  person in your list. */
 
 
-var guests2 = ["Saad", "Haris", "Fatima", "Huma"];
+var guests2:string[] = ["Saad", "Haris", "Fatima", "Huma"];
 let canceledGuest = guests2.pop();
 guests2.unshift("Sareena")
 guests2.push("Ali","Amir")

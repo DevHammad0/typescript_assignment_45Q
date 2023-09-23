@@ -15,7 +15,7 @@ know they’re still invited.
  list to make sure you actually have an empty list at the end of your program.*/
 
 
-var guests2 = ["Saad", "Haris", "Fatima", "Huma"];
+var guests2:string[] = ["Saad", "Haris", "Fatima", "Huma"];
 let canceledGuest1 = guests2.pop();
 guests2.unshift("Sareena")
 guests2.push("Ali","Amir")

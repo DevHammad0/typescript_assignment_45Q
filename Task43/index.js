@@ -1,21 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var magicians = ["David Copperfield", "Dynamo", "Penn & Teller", "David Blaine"];
+let magicians = ["David Copperfield", "Dynamo", "Penn & Teller", "David Blaine"];
 function show_magicians(magicians) {
-    for (var _i = 0, magicians_1 = magicians; _i < magicians_1.length; _i++) {
-        var magician = magicians_1[_i];
+    for (let magician of magicians) {
         console.log(magician);
     }
 }
 function make_great(magicians) {
-    var great_magicians = [];
-    for (var _i = 0, magicians_2 = magicians; _i < magicians_2.length; _i++) {
-        var magician = magicians_2[_i];
+    let great_magicians = [];
+    for (let magician of magicians) {
         great_magicians.push(magician + " the Great");
     }
     return great_magicians;
 }
-var new_array = make_great(magicians);
+let new_array = make_great(magicians);
 // Calling original array
 show_magicians(magicians);
 // Calling modified array

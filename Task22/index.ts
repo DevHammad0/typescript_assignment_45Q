@@ -3,7 +3,7 @@
  to produce an index error. Make sure you correct the error before closing the
  program.*/
 
-let fruits = ["mango", "banana", "apple", "orange"]
+let fruits:string[] = ["mango", "banana", "apple", "orange"]
 
 console.log(fruits[0]);
 console.log(fruits[4]); //invalid index

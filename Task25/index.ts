@@ -8,7 +8,7 @@ it is, print a message that the player just earned 5 points.
 that fails. (The version that fails will have no output.)*/
 
 
-let alien_color = "green";
+let alien_color:string = "green";
 if(alien_color == "green"){
     console.log("you have just earned 5 points");
 }

@@ -12,7 +12,7 @@
 • If the person is age 65 or older, print a message that the person is an elder. */
 
 
-let age2 = 25;
+let age2:number = 25;
 
 // if-else chain that determines a person's stage of life
 if (age2 < 2) {

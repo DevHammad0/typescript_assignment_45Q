@@ -1,6 +1,7 @@
+"use strict";
 function make_sandwich(items) {
-    var summary = "You ordered a sandwich with ";
-    for (var i = 0; i < items.length; i++) {
+    let summary = "You ordered a sandwich with ";
+    for (let i = 0; i < items.length; i++) {
         summary += items[i];
         // Adding a comma or and if there are more items
         if (i < items.length - 2) {

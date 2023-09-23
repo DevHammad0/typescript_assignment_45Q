@@ -1,6 +1,6 @@
-var num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (var _i = 0, num_1 = num; _i < num_1.length; _i++) {
-    var number = num_1[_i];
+"use strict";
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let number of num) {
     if (number === 1) {
         console.log("1st");
     }
@@ -11,6 +11,6 @@ for (var _i = 0, num_1 = num; _i < num_1.length; _i++) {
         console.log("3rd");
     }
     else {
-        console.log("".concat(number, "th"));
+        console.log(`${number}th`);
     }
 }

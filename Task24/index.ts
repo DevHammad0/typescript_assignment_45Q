@@ -16,7 +16,7 @@ False result for each of the following:
 
 
 //Tests for equality and inequality with strings
-let name2 = "Ali"; 
+let name2:string = "Ali"; 
 console.log("Is name == 'Ali'? I predict True."); 
 console.log(name2 == "Ali"); // true 
 console.log("Is name2 != 'Ali'? I predict False."); 

@@ -1,6 +1,6 @@
-let current_users = ["john", "alice", "bob", "carol", "david"];
+let current_users:string[] = ["john", "alice", "bob", "carol", "david"];
 
-let new_users = ["eric", "fiona", "john", "carol", "george"];
+let new_users:string[] = ["eric", "fiona", "john", "carol", "george"];
 
 // Looping through the new_users list to see if each new username has already been used
 for (let new_user of new_users) {

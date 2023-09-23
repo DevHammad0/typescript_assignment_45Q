@@ -1,5 +1,5 @@
 
-let usernames2 = ["ali", "salman", "moin", "admin", "haris"];
+let usernames2:string[] = ["ali", "salman", "moin", "admin", "haris"];
 
 // if test to make sure the list of users is not empty
 if (usernames2.length > 0) {

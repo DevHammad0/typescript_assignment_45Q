@@ -1,4 +1,4 @@
-let favorite_fruits = ["apple", "orange", "grape"];
+let favorite_fruits:string[] = ["apple", "orange", "grape"];
 
 if (favorite_fruits.includes("apple")) {
   console.log("You really like apples!");

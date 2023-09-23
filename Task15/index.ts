@@ -12,7 +12,7 @@ else to invite.
 in your list. */
 
 
-var guests2 = ["Saad", "Haris", "Fatima", "Huma"];
+var guests2:string[] = ["Saad", "Haris", "Fatima", "Huma"];
 let canceled = guests2.pop();
 guests2.push("Ali")
 for (var i = 0; i < guests2.length; i++) {

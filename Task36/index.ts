@@ -3,4 +3,7 @@ function make_shirt(size: string,message: string) {
   }
   
   make_shirt("large", "Hello World");
+
+
+  export{}
   
