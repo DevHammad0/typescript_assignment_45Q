@@ -23,7 +23,7 @@ has been changed.
  that its order has changed.*/
 
 
-let places =["Kaaba Shareef","Switzerland","Niagra Falls","Hunza","Germany"]
+let places:string[] =["Kaaba Shareef","Switzerland","Niagra Falls","Hunza","Germany"]
 console.log(places);
 
 console.log(places.slice().sort())
