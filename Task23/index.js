@@ -13,6 +13,7 @@ console.log(car == 'subaru')
 
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 let age = 18;
 console.log("Is age >= 21? I predict False.");
 console.log(age >= 21);

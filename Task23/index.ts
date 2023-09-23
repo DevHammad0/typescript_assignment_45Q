@@ -58,3 +58,4 @@ console.log(year < 2020);
 
 
 
+export{}
